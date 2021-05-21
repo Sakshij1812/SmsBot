@@ -1,9 +1,10 @@
-var accountSid = '*********8';
+var accountSid = '**********';
 var authToken = "*********";
 var client = require('twilio')(accountSid, authToken);
 
 var filterOpts = {
-     from: '919740877787',
+     //phone number
+     from: '**********',
     //dateSent: new Date(2017, 04, 11)
 };
 
